@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>{&#13;
+  "type": "SN_TASK",&#13;
+  "values": {&#13;
+    "sys_id": "${sys_id}",&#13;
+    "number": "${number}",&#13;
+    "assignment_group": "${assignment_group}",&#13;
+    "short_description": "${short_description}",&#13;
+    "description": "${description}",&#13;
+    "assigned_to": "${assigned_to}",&#13;
+    "configuration_item": "${configuration_item}"&#13;
+   }&#13;
+}</content>
+        <function_name>Send Task</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Event Engine [ Send Task ]</qualified_name>
+        <rest_endpoint>http://vviesro03:8090/analytics/api/v1/events/</rest_endpoint>
+        <rest_message display_value="Event Engine">1a583b190f0d83009c13cd8ce1050e71</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-06 10:37:23</sys_created_on>
+        <sys_id>ead8b3590f0d83009c13cd8ce1050e5a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Send Task</sys_name>
+        <sys_package display_value="Automic - Event Engine" source="x_ausgh_automic">cc899b150fc983009c13cd8ce1050edf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automic - Event Engine">cc899b150fc983009c13cd8ce1050edf</sys_scope>
+        <sys_update_name>sys_rest_message_fn_ead8b3590f0d83009c13cd8ce1050e5a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-08 09:40:30</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server display_value="">910121cc0f088f009c13cd8ce1050e08</use_mid_server>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

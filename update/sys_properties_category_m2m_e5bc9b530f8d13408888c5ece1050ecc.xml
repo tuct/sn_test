@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Automic - Event Engine">b0dcdb530f8d13408888c5ece1050ebe</category>
+        <order>1</order>
+        <property display_value="x_ausgh_automic.event_engine_url" name="x_ausgh_automic.event_engine_url">9e865f9f0f4d13408888c5ece1050eaf</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 09:53:11</sys_created_on>
+        <sys_id>e5bc9b530f8d13408888c5ece1050ecc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ausgh_automic.event_engine_url.Automic - Event Engine</sys_name>
+        <sys_package display_value="Automic - Event Engine" source="x_ausgh_automic">cc899b150fc983009c13cd8ce1050edf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automic - Event Engine">cc899b150fc983009c13cd8ce1050edf</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_e5bc9b530f8d13408888c5ece1050ecc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-30 09:53:11</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>
